@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  height: 100vh;
+  background-color: var(--c-gray-1);
+}
+
+.section {
+  background-color: var(--c-gray-1);
+  height: 100vh;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.chart-section {
+  width: 69.9%;
+  height: 100vh;
+}
+
+.location-section {
+  width: 30%;
+  height: 100vh;
+}
+
+.divider {
+  width: 0.1%;
+  background-color: var(--c-gray-4);
+}

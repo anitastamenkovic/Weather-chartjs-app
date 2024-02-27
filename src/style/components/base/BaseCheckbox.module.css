@@ -1,0 +1,12 @@
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+input[type="checkbox"] {
+  width: 1.7rem;
+  height: 1.7rem;
+  accent-color: var(--c-gray-1);
+  border-radius: 5px;
+}

@@ -1,0 +1,17 @@
+.location-search-container {
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.countries-container {
+  height: 45vh;
+  margin-bottom: 2rem;
+}
+
+.cities-container {
+  height: 48vh;
+}

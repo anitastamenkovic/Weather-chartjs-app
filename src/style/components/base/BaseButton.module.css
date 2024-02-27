@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  outline: none;
+  background-color: var(--c-gray-2);
+  color: var(--c-gray-4);
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.active-button {
+  background-color: var(--c-gray-3);
+  color: var(--c-white);
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
+.primary-button {
+  border-radius: 5px;
+}
+
+.list-button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid var(--c-gray-4);
+}
+
+.list-button:last-child {
+  border: none;
+}
+
+.list-button img {
+  width: 2.5rem;
+}

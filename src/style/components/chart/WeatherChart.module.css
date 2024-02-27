@@ -1,0 +1,27 @@
+.weather-container {
+  height: 50vh;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chart-container {
+  height: 45vh;
+  background-color: var(--c-gray-2);
+}
+
+.chart-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  height: 43vh;
+  padding: 1.5rem;
+}
+
+.slider-container {
+  margin: -15px 29px 0 50px;
+}
